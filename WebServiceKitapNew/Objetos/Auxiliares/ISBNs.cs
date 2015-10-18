@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
 
-namespace WebServiceKitapNew.Core.Objetos
+namespace WebServiceKitapNew.Core.Objetos.Auxiliares
 {
     public class ISBNs
     {

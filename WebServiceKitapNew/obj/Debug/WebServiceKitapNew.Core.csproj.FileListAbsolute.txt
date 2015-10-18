@@ -3,3 +3,6 @@ c:\users\michel\documents\visual studio 2015\Projects\WebServiceKitapNew\WebServ
 c:\users\michel\documents\visual studio 2015\Projects\WebServiceKitapNew\WebServiceKitapNew\obj\Debug\WebServiceKitapNew.Core.csprojResolveAssemblyReference.cache
 c:\users\michel\documents\visual studio 2015\Projects\WebServiceKitapNew\WebServiceKitapNew\obj\Debug\WebServiceKitapNew.Core.dll
 c:\users\michel\documents\visual studio 2015\Projects\WebServiceKitapNew\WebServiceKitapNew\obj\Debug\WebServiceKitapNew.Core.pdb
+C:\Users\Familia\Documents\GitHub\WebServiceKitapNew\WebServiceKitapNew\obj\Debug\WebServiceKitapNew.Core.csprojResolveAssemblyReference.cache
+C:\Users\Familia\Documents\GitHub\WebServiceKitapNew\WebServiceKitapNew\obj\Debug\WebServiceKitapNew.Core.dll
+C:\Users\Familia\Documents\GitHub\WebServiceKitapNew\WebServiceKitapNew\obj\Debug\WebServiceKitapNew.Core.pdb

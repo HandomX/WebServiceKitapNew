@@ -40,10 +40,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Objetos\Autores.cs" />
+    <Compile Include="Objetos\Auxiliares\Autores.cs" />
+    <Compile Include="Objetos\Emprestimo.cs" />
     <Compile Include="Objetos\Exemplar.cs" />
-    <Compile Include="Objetos\ISBNs.cs" />
-    <Compile Include="Objetos\Status.cs" />
+    <Compile Include="Objetos\Auxiliares\ISBNs.cs" />
+    <Compile Include="Objetos\Auxiliares\IntervaloData.cs" />
+    <Compile Include="Objetos\Pedido.cs" />
+    <Compile Include="Objetos\Auxiliares\EStatus.cs" />
+    <Compile Include="Objetos\Auxiliares\Tempo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

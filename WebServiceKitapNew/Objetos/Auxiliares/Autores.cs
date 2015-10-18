@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace WebServiceKitapNew.Core.Objetos
+namespace WebServiceKitapNew.Core.Objetos.Auxiliares
 {
     public class Autores
     {

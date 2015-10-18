@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WebServiceKitapNew.Core.Objetos.Auxiliares;
 
 namespace WebServiceKitapNew.Core.Objetos
 {
@@ -16,7 +17,7 @@ namespace WebServiceKitapNew.Core.Objetos
         public string Sinopse { get; private set; }
         public string Categoria { get; private set; }
         public int Paginas { get; private set; }
-        public Status Status { get; private set; }
+        public string Status { get; private set; }
         public string NomeDoDono { get; private set; }
 
         public Exemplar(string Titulo, Autores Autores, ISBNs Isbns, string Editora, string Categoria, int Paginas, string NomeDoDono)
@@ -28,7 +29,7 @@ namespace WebServiceKitapNew.Core.Objetos
             this.Editora = Editora;
             this.Categoria = Categoria;
             this.Paginas = Paginas;
-            this.Status = Status.Disponivel;
+            this.Status = EStatus.Disponivel;
             this.NomeDoDono = NomeDoDono;
         }
 
@@ -42,14 +43,11 @@ namespace WebServiceKitapNew.Core.Objetos
             this.Sinopse = Sinopse;
             this.Categoria = Categoria;
             this.Paginas = Paginas;
-            this.Status = Status.Disponivel;
+            this.Status = EStatus.Disponivel;
             this.NomeDoDono = NomeDoDono;
         }
 
-        public bool isValido()
-        {
-            return ISBNs.isValido();
-        }
+        
 
     }
 }
