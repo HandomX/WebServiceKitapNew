@@ -2,11 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
-namespace WebServiceKitapNew.Dominio.Repositorios
+namespace WebServiceKitapNew.Dominio.Objetos.Auxiliares
 {
-    public class Acervo
+    public class IntervaloDeQuantidade
     {
     }
 }

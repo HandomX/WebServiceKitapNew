@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WebServiceKitapNew.Dominio.Repositorios
+namespace WebServiceKitapNew.DB
 {
-    public class Acervo
+    public class Class1
     {
     }
 }

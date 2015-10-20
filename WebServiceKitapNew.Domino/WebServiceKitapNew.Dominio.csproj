@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D9C429AD-CA6F-44F5-A9D8-CDDA22C117D3}</ProjectGuid>
+    <ProjectGuid>{12BD036C-16FF-43F8-8CD3-0369D3DD526A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>WebServiceKitapNew.Dominio</RootNamespace>
-    <AssemblyName>WebServiceKitapNew.Core</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <AssemblyName>WebServiceKitapNew.Dominio</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -36,22 +36,19 @@
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Interfaces\IAcervoPessoal.cs" />
+    <Compile Include="Interfaces\ITodosExemplares.cs" />
+    <Compile Include="Objetos\Auxiliares\Autores.cs" />
+    <Compile Include="Objetos\Auxiliares\IntervaloDeQuantidade.cs" />
+    <Compile Include="Objetos\Auxiliares\Status.cs" />
+    <Compile Include="Objetos\Auxiliares\ISBNS.cs" />
+    <Compile Include="Objetos\Exemplar.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Repositorios\Acervo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\WebServiceKitapNew.DB\WebServiceKitapNew.DB.csproj">
-      <Project>{a3de0490-4f91-4617-9ee0-8a7f7b53e46f}</Project>
-      <Name>WebServiceKitapNew.DB</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Services\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

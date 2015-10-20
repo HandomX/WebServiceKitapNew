@@ -6,3 +6,7 @@ c:\users\michel\documents\visual studio 2015\Projects\WebServiceKitapNew\WebServ
 C:\Users\Familia\Documents\GitHub\WebServiceKitapNew\WebServiceKitapNew\obj\Debug\WebServiceKitapNew.Core.csprojResolveAssemblyReference.cache
 C:\Users\Familia\Documents\GitHub\WebServiceKitapNew\WebServiceKitapNew\obj\Debug\WebServiceKitapNew.Core.dll
 C:\Users\Familia\Documents\GitHub\WebServiceKitapNew\WebServiceKitapNew\obj\Debug\WebServiceKitapNew.Core.pdb
+C:\Users\Familia\Documents\GitHub\WebServiceKitapNew\WebServiceKitapNew\bin\Debug\WebServiceKitapNew.Core.dll
+C:\Users\Familia\Documents\GitHub\WebServiceKitapNew\WebServiceKitapNew\bin\Debug\WebServiceKitapNew.Core.pdb
+C:\Users\Familia\Documents\GitHub\WebServiceKitapNew\WebServiceKitapNew\bin\Debug\WebServiceKitapNew.DB.dll
+C:\Users\Familia\Documents\GitHub\WebServiceKitapNew\WebServiceKitapNew\bin\Debug\WebServiceKitapNew.DB.pdb

@@ -1,9 +1,0 @@
-c:\users\michel\documents\visual studio 2015\Projects\WebServiceKitapNew\WebServiceKitapNew.Core.Tests\bin\Debug\WebServiceKitapNew.Core.Tests.dll
-c:\users\michel\documents\visual studio 2015\Projects\WebServiceKitapNew\WebServiceKitapNew.Core.Tests\bin\Debug\WebServiceKitapNew.Core.Tests.pdb
-c:\users\michel\documents\visual studio 2015\Projects\WebServiceKitapNew\WebServiceKitapNew.Core.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
-c:\users\michel\documents\visual studio 2015\Projects\WebServiceKitapNew\WebServiceKitapNew.Core.Tests\bin\Debug\WebServiceKitapNew.Core.dll
-c:\users\michel\documents\visual studio 2015\Projects\WebServiceKitapNew\WebServiceKitapNew.Core.Tests\bin\Debug\WebServiceKitapNew.Core.pdb
-c:\users\michel\documents\visual studio 2015\Projects\WebServiceKitapNew\WebServiceKitapNew.Core.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
-c:\users\michel\documents\visual studio 2015\Projects\WebServiceKitapNew\WebServiceKitapNew.Core.Tests\obj\Debug\WebServiceKitapNew.Core.Tests.csprojResolveAssemblyReference.cache
-c:\users\michel\documents\visual studio 2015\Projects\WebServiceKitapNew\WebServiceKitapNew.Core.Tests\obj\Debug\WebServiceKitapNew.Core.Tests.dll
-c:\users\michel\documents\visual studio 2015\Projects\WebServiceKitapNew\WebServiceKitapNew.Core.Tests\obj\Debug\WebServiceKitapNew.Core.Tests.pdb

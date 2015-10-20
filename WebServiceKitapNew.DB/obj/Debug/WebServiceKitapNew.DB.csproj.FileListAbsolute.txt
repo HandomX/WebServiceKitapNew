@@ -1,0 +1,5 @@
+C:\Users\Familia\Documents\GitHub\WebServiceKitapNew\WebServiceKitapNew.DB\bin\Debug\WebServiceKitapNew.DB.dll
+C:\Users\Familia\Documents\GitHub\WebServiceKitapNew\WebServiceKitapNew.DB\bin\Debug\WebServiceKitapNew.DB.pdb
+C:\Users\Familia\Documents\GitHub\WebServiceKitapNew\WebServiceKitapNew.DB\obj\Debug\WebServiceKitapNew.DB.csprojResolveAssemblyReference.cache
+C:\Users\Familia\Documents\GitHub\WebServiceKitapNew\WebServiceKitapNew.DB\obj\Debug\WebServiceKitapNew.DB.dll
+C:\Users\Familia\Documents\GitHub\WebServiceKitapNew\WebServiceKitapNew.DB\obj\Debug\WebServiceKitapNew.DB.pdb
