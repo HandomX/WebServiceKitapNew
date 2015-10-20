@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Text.RegularExpressions;
 
 namespace WebServiceKitapNew.Dominio.Objetos.Auxiliares
@@ -8,37 +9,37 @@ namespace WebServiceKitapNew.Dominio.Objetos.Auxiliares
     public class ISBNS
     {
 
-        private List<string> ArrayDeISBN;
+        private List<string> _ArrayDeISBN;
 
         public ISBNS()
         {
-            this.ArrayDeISBN = new List<string>();
+            this._ArrayDeISBN = new List<string>();
         }
 
         public void AddISBN(string isbn)
         {
-            if (!isbn.Equals("") && !isbn.Equals(null))
-                this.ArrayDeISBN.Add(isbn);
+            if (!VerificarSeJaExite(isbn) && LimiteDeDois() && ValorVazio(isbn))
+                this._ArrayDeISBN.Add(isbn);
         }
 
         public void AddISBN(List<string> listaDeIsbn)
         {
-            this.ArrayDeISBN.AddRange(listaDeIsbn);
+            this._ArrayDeISBN.AddRange(listaDeIsbn);
         }
 
         public List<String> GetListaISBN()
         {
-            return this.ArrayDeISBN;
+            return this._ArrayDeISBN;
         }
 
         public bool isValido()
         {
             bool valido = true;
 
-            if (ArrayDeISBN.Count == 0)
+            if (_ArrayDeISBN.Count == 0)
                 return false;
 
-            foreach (var isbn in ArrayDeISBN)
+            foreach (var isbn in _ArrayDeISBN)
             {
                 valido = (valido & VerificarContemSomenteNumero(isbn) & VerificarTipoEhCalculaDigitoVerificadorDoISBN(isbn));
             }
@@ -111,6 +112,37 @@ namespace WebServiceKitapNew.Dominio.Objetos.Auxiliares
                 isbnNumerico.Add(numero);
             }
             return isbnNumerico.ToArray();
+        }
+
+        private bool VerificarSeJaExite(string isbn)
+        {
+            return _ArrayDeISBN.Contains(isbn);
+        }
+
+        private bool LimiteDeDois()
+        {
+            return _ArrayDeISBN.Count <= 2;
+        }
+
+        private bool ValorVazio(string isbn)
+        {
+            return !isbn.Equals("") && !isbn.Equals(null)
+        }
+
+        public override string ToString()
+        {
+            StringBuilder sb = new StringBuilder();
+            int cont = 1;
+            foreach (var isbn in _ArrayDeISBN)
+            {
+                if (cont != _ArrayDeISBN.Count)
+                    sb.Append(isbn + ", ");
+                else
+                    sb.Append(isbn);
+            }
+
+
+            return sb.ToString();
         }
     }
 }

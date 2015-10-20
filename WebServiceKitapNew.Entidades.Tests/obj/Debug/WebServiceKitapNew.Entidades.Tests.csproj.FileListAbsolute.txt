@@ -1,1 +1,0 @@
-C:\Users\Familia\Documents\GitHub\WebServiceKitapNew\WebServiceKitapNew.Entidades.Tests\obj\Debug\WebServiceKitapNew.Entidades.Tests.csprojResolveAssemblyReference.cache
