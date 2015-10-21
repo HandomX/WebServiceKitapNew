@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using WebServiceKitapNew.Dominio.Objetos;
+using WebServiceKitapNew.Dominio.DominioModel;
 
 namespace WebServiceKitapNew.Dominio.Interfaces
 {
-    public interface IAcervoPessoal : ITodosExemplares
+    public interface IAcervoPessoal : IPesquisarExemplares
     {
         Task<bool> Adicionar(Exemplar exemplar);
-        Task<Exemplar> Remover(Guid codigoExemplar);
+        Task<bool> Remover(Exemplar exemplar);
     }
 }

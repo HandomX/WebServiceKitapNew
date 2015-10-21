@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using WebServiceKitapNew.Dominio.Objetos.Auxiliares;
+using WebServiceKitapNew.Dominio.DominioModel.Auxiliares;
 
-namespace WebServiceKitapNew.Dominio.Objetos
+namespace WebServiceKitapNew.Dominio.DominioModel
 {
     public class Exemplar
     {

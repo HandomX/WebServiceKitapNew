@@ -1,7 +1,8 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Text;
 
-namespace WebServiceKitapNew.Dominio.Objetos.Auxiliares
+namespace WebServiceKitapNew.Dominio.DominioModel.Auxiliares
 {
     public class Autores
     {
@@ -14,18 +15,28 @@ namespace WebServiceKitapNew.Dominio.Objetos.Auxiliares
 
         public void AdicionarAutor(string nome)
         {
-            if(!VerificarSeExite(nome) && LimiteDeDois() )
-                _Autores.Add(nome);
+            if (ValorVazio(nome))
+                throw new Exception("Nome De Autor Invalido");
+
+            if (VerificarSeExite(nome))
+                throw new Exception("Este Autor Já Consta Na Lista.");
+                
+            _Autores.Add(nome);
         }
 
         private bool VerificarSeExite(string nome)
         {
             return _Autores.Contains(nome);
         }
-        
-        private bool LimiteDeDois()
+
+        private bool ValorVazio(string nome)
         {
-            return _Autores.Count <= 2;
+            if (nome == null)
+                return true;
+            else if (nome.Equals(""))
+                return true;
+
+            return false;
         }
 
         public List<string> GetListaDeAutores()

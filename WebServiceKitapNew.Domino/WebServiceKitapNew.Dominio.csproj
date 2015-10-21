@@ -40,12 +40,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Interfaces\IAcervoPessoal.cs" />
-    <Compile Include="Interfaces\ITodosExemplares.cs" />
-    <Compile Include="Objetos\Auxiliares\Autores.cs" />
-    <Compile Include="Objetos\Auxiliares\IntervaloDeQuantidade.cs" />
-    <Compile Include="Objetos\Auxiliares\Status.cs" />
-    <Compile Include="Objetos\Auxiliares\ISBNS.cs" />
-    <Compile Include="Objetos\Exemplar.cs" />
+    <Compile Include="Interfaces\IPesquisarExemplares.cs" />
+    <Compile Include="DominioModel\Auxiliares\Autores.cs" />
+    <Compile Include="DominioModel\Auxiliares\IntervaloDeQuantidade.cs" />
+    <Compile Include="DominioModel\Auxiliares\Status.cs" />
+    <Compile Include="DominioModel\Auxiliares\ISBNS.cs" />
+    <Compile Include="DominioModel\Exemplar.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

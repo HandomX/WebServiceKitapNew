@@ -3,3 +3,8 @@ C:\Users\Familia\Documents\GitHub\WebServiceKitapNew\WebServiceKitapNew.Entidade
 C:\Users\Familia\Documents\GitHub\WebServiceKitapNew\WebServiceKitapNew.Entidades\obj\Debug\WebServiceKitapNew.Dominio.csprojResolveAssemblyReference.cache
 C:\Users\Familia\Documents\GitHub\WebServiceKitapNew\WebServiceKitapNew.Entidades\obj\Debug\WebServiceKitapNew.Dominio.dll
 C:\Users\Familia\Documents\GitHub\WebServiceKitapNew\WebServiceKitapNew.Entidades\obj\Debug\WebServiceKitapNew.Dominio.pdb
+C:\Users\Familia\Documents\GitHub\WebServiceKitapNew\WebServiceKitapNew.Domino\obj\Debug\WebServiceKitapNew.Dominio.csprojResolveAssemblyReference.cache
+C:\Users\Familia\Documents\GitHub\WebServiceKitapNew\WebServiceKitapNew.Domino\obj\Debug\WebServiceKitapNew.Dominio.dll
+C:\Users\Familia\Documents\GitHub\WebServiceKitapNew\WebServiceKitapNew.Domino\bin\Debug\WebServiceKitapNew.Dominio.dll
+C:\Users\Familia\Documents\GitHub\WebServiceKitapNew\WebServiceKitapNew.Domino\bin\Debug\WebServiceKitapNew.Dominio.pdb
+C:\Users\Familia\Documents\GitHub\WebServiceKitapNew\WebServiceKitapNew.Domino\obj\Debug\WebServiceKitapNew.Dominio.pdb

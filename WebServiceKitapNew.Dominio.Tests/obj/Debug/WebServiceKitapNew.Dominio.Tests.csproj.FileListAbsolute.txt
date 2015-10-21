@@ -1,0 +1,7 @@
+C:\Users\Familia\Documents\GitHub\WebServiceKitapNew\WebServiceKitapNew.Dominio.Tests\obj\Debug\WebServiceKitapNew.Dominio.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Familia\Documents\GitHub\WebServiceKitapNew\WebServiceKitapNew.Dominio.Tests\bin\Debug\WebServiceKitapNew.Dominio.Tests.dll
+C:\Users\Familia\Documents\GitHub\WebServiceKitapNew\WebServiceKitapNew.Dominio.Tests\bin\Debug\WebServiceKitapNew.Dominio.Tests.pdb
+C:\Users\Familia\Documents\GitHub\WebServiceKitapNew\WebServiceKitapNew.Dominio.Tests\bin\Debug\WebServiceKitapNew.Dominio.dll
+C:\Users\Familia\Documents\GitHub\WebServiceKitapNew\WebServiceKitapNew.Dominio.Tests\bin\Debug\WebServiceKitapNew.Dominio.pdb
+C:\Users\Familia\Documents\GitHub\WebServiceKitapNew\WebServiceKitapNew.Dominio.Tests\obj\Debug\WebServiceKitapNew.Dominio.Tests.dll
+C:\Users\Familia\Documents\GitHub\WebServiceKitapNew\WebServiceKitapNew.Dominio.Tests\obj\Debug\WebServiceKitapNew.Dominio.Tests.pdb

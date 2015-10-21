@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace WebServiceKitapNew.Dominio.Objetos.Auxiliares
+namespace WebServiceKitapNew.Dominio.DominioModel.Auxiliares
 {
     public class ISBNS
     {
@@ -126,7 +126,7 @@ namespace WebServiceKitapNew.Dominio.Objetos.Auxiliares
 
         private bool ValorVazio(string isbn)
         {
-            return !isbn.Equals("") && !isbn.Equals(null)
+            return !isbn.Equals("") && !isbn.Equals(null);
         }
 
         public override string ToString()

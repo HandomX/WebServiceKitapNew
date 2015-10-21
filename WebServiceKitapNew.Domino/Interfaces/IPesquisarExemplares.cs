@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using WebServiceKitapNew.Dominio.Objetos;
-using WebServiceKitapNew.Dominio.Objetos.Auxiliares;
+using WebServiceKitapNew.Dominio.DominioModel;
+using WebServiceKitapNew.Dominio.DominioModel.Auxiliares;
 
 namespace WebServiceKitapNew.Dominio.Interfaces
 {
-    public interface ITodosExemplares
+    public interface IPesquisarExemplares
     {
-        Task<Exemplar> PorISBN(string isbn);
+        Task<List<Exemplar>> PesquisarPorISBN(string isbn);
         Task<List<Exemplar>> PorUsuario();
         Task<List<Exemplar>> PorTitulo(string titulo, IntervaloDeQuantidade intevaloDeQuantidade);
         Task<List<Exemplar>> PorEditora(string editora, IntervaloDeQuantidade intevaloDeQuantidade);

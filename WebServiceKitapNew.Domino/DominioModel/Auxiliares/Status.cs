@@ -1,4 +1,4 @@
-﻿namespace WebServiceKitapNew.Dominio.Objetos.Auxiliares
+﻿namespace WebServiceKitapNew.Dominio.DominioModel.Auxiliares
 {
     public class Status
     {
